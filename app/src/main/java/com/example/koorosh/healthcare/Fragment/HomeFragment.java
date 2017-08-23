@@ -56,6 +56,13 @@ public class HomeFragment extends Fragment {
         InitArcView(arcView2);
         InitArcView(arcView3);
 
+
+
+
+
+
+
+
         return rootView;
     }
 
@@ -65,7 +72,7 @@ public class HomeFragment extends Fragment {
         // Create background track
         arcView.addSeries(new SeriesItem.Builder(Color.argb(255, 218, 218, 218))
                 .setRange(0, 100, 100)
-                .setInitialVisibility(false)
+                .setInitialVisibility(true)
                 .setLineWidth(32f)
                 .build());
 

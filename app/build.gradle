@@ -34,4 +34,5 @@ dependencies {
     compile 'com.github.bmarrdev:android-DecoView-charting:v1.2'
     compile 'com.github.PhilJay:MPAndroidChart:v3.0.2'
     compile 'com.github.lecho:hellocharts-android:v1.5.8'
+    compile 'com.google.android.gms:play-services-fitness:9.8.0'
 }
