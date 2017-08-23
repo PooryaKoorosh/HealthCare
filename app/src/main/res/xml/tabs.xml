@@ -1,0 +1,31 @@
+<tabs>
+
+    <tab
+        id="@+id/action_home"
+        icon="@drawable/ic_home_black_24dp"
+        title="خانه"
+        barColorWhenSelected="@color/colorPrimary"
+        />
+
+    <tab
+        id="@+id/action_walking"
+        icon="@drawable/ic_directions_walk_black_24dp"
+        title="قدم زدن"
+        barColorWhenSelected="@color/colorPrimary"
+        />
+
+    <tab
+        id="@+id/action_calorie"
+        icon="@drawable/ic_local_dining_black_24dp"
+        title="کالری و تغذیه"
+        barColorWhenSelected="@color/colorPrimary"
+        />
+
+    <tab
+        id="@+id/action_settings"
+        icon="@drawable/ic_settings_black_24dp"
+        title="تنظیمات"
+        barColorWhenSelected="@color/colorPrimary"
+        />
+
+</tabs>

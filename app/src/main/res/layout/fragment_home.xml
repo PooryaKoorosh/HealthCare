@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/linearLayout1">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_alignParentLeft="true">
+
+    <com.hookedonplay.decoviewlib.DecoView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/ReceivedCaolorie"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="میزان کالری دریافتی"
+        android:layout_below="@id/ReceivedCaolorie"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_marginTop="40dp"/>
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true">
+
+        <com.hookedonplay.decoviewlib.DecoView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/WalkingSteps"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تعداد قدم ها"
+            android:layout_below="@id/WalkingSteps"
+            android:layout_centerHorizontal="true"
+            android:textSize="15dp"
+            android:layout_marginTop="40dp"/>
+
+    </RelativeLayout>
+</LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/linearLayout1"
+        android:layout_centerHorizontal="true">
+
+        <com.hookedonplay.decoviewlib.DecoView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/SleepingHours"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ساعات خواب"
+            android:layout_below="@id/SleepingHours"
+            android:layout_centerHorizontal="true"
+            android:textSize="15dp"
+            android:layout_marginTop="40dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+</ScrollView >
