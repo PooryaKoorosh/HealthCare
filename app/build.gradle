@@ -4,8 +4,8 @@ android {
     compileSdkVersion 26
     buildToolsVersion "25.0.3"
     defaultConfig {
-        applicationId "com.pk.healthcare"
-        minSdkVersion 19
+        applicationId "com.example.koorosh.healthcare"
+        minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -22,6 +22,14 @@ android {
         //...
         maven { url "https://jitpack.io" }
     }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE.txt'
+    }
 }
 
 dependencies {
@@ -32,9 +40,9 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.2.0'
     compile 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'
     compile 'com.github.bmarrdev:android-DecoView-charting:v1.2'
-    compile 'com.github.PhilJay:MPAndroidChart:v3.0.2'
-    compile 'com.github.lecho:hellocharts-android:v1.5.8'
-    compile 'com.google.android.gms:play-services-fitness:9.8.0'
-    compile 'com.github.blackfizz:eazegraph:1.2.5l@aar'
+//    compile 'com.github.PhilJay:MPAndroidChart:v3.0.2'//not used
+//    compile 'com.github.lecho:hellocharts-android:v1.5.8'//not used
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.github.blackfizz:eazegraph:1.2.2@aar'
     compile 'com.nineoldandroids:library:2.4.0'
 }

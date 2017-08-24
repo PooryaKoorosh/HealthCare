@@ -32,6 +32,19 @@
             android:layout_marginTop="8dp"
             android:hint="ایمیل"/>
 
+
+        <EditText
+            android:id="@+id/ed_Username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:gravity="right"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:hint="نام کاربری"/>
+
         <EditText
             android:id="@+id/ed_Name"
             android:layout_width="fill_parent"

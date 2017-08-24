@@ -5,5 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/LogoutBtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="خروج"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttons_border"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+
+
+    <Button
+        android:id="@+id/ProfileBtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="پروفایل"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttons_border"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/LogoutBtn"/>
 
 </RelativeLayout >
