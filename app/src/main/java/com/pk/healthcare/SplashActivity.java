@@ -1,7 +1,6 @@
-package com.example.koorosh.healthcare;
+package com.pk.healthcare;
 
 import android.content.Intent;
-import android.provider.SyncStateContract;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.viksaa.sssplash.lib.activity.AwesomeSplash;

@@ -1,4 +1,4 @@
-package com.example.koorosh.healthcare;
+package com.pk.healthcare;
 
 import android.Manifest;
 import android.app.Activity;
@@ -11,8 +11,6 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
-
-import com.example.koorosh.healthcare.R;
 
 /**
  * Created by Koorosh on 8/23/2017.

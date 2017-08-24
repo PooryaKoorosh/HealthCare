@@ -1,4 +1,4 @@
-package com.example.koorosh.healthcare;
+package com.pk.healthcare;
 
 import android.app.Activity;
 import android.content.ContentValues;

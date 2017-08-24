@@ -1,4 +1,4 @@
-package com.example.koorosh.healthcare;
+package com.pk.healthcare;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

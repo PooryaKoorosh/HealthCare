@@ -1,4 +1,4 @@
-package com.example.koorosh.healthcare;
+package com.pk.healthcare;
 
 import android.app.Activity;
 import android.app.Application;
@@ -7,13 +7,10 @@ import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.support.v7.app.AlertDialog;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import java.util.ArrayList;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
